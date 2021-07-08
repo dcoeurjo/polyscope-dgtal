@@ -1,4 +1,5 @@
 # polyscope-dgtal
+[![C/C++ CI](https://github.com/dcoeurjo/polyscope-dgtal/actions/workflows/ccpp.yml/badge.svg)](https://github.com/dcoeurjo/polyscope-dgtal/actions/workflows/ccpp.yml)
 
 This repository is an integration example between [polyscope](https://polyscope.run) and [DGtal](https://dgtal.org).
 
