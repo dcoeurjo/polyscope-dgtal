@@ -10,5 +10,5 @@ add_subdirectory(deps)
 include("${PROJECT_BINARY_DIR}/deps/DGtal/DGtalConfig.cmake")
 include_directories("${DGTAL_INCLUDE_DIRS}")
 
-add_executable(simpleTest simpleTest)
+add_executable(simpleTest simpleTest.cpp)
 target_link_libraries(simpleTest polyscope DGtal ${DGTAL_LIBRARIES})
