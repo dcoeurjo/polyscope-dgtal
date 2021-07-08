@@ -14,10 +14,10 @@ Then you can compile the example file using:
 ```
 mkdir build
 cd build
-cmake ..
+cmake .. -DCMAKE_BUILD_TYPE=Release
 make
 ```
-Consider using  `cmake -DCMAKE_BUILD_TYPE=Release` for faster computation.
+(you may want to remove the  `-DCMAKE_BUILD_TYPE=Release` for the debugging)
 
 *Note*: to compile DGtal, you would need [boost](boost.org) (only headers) and  [zlib](https://www.zlib.net).
 
